@@ -1,0 +1,32 @@
+<project>
+    <parent>
+        <groupId>wusc.edu.common</groupId>
+        <artifactId>edu-common-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <groupId>wusc.edu.web</groupId>
+    <artifactId>edu-web-boss</artifactId>
+    <version>${edu-web-boss.version}</version>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>war</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>wusc.edu.demo</groupId>
+            <artifactId>edu-service-user</artifactId>
+            <version>${edu-service-user.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.1</version>
+        </dependency>
+
+        <!-- Struts2 Dependency End -->
+    </dependencies>
+</project>

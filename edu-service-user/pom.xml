@@ -1,0 +1,19 @@
+<project>
+    <parent>
+        <groupId>wusc.edu.common</groupId>
+        <artifactId>edu-common-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../edu-common-parent</relativePath>
+    </parent>
+    <groupId>wusc.edu.demo</groupId>
+    <artifactId>edu-service-user</artifactId>
+    <version>${edu-service-user.version}</version>
+    <modelVersion>4.0.0</modelVersion>
+    <dependencies>
+        <dependency>
+            <groupId>wusc.edu.facade</groupId>
+            <artifactId>edu-facade-user</artifactId>
+            <version>${edu-facade-user.version}</version>
+        </dependency>
+    </dependencies>
+</project>
