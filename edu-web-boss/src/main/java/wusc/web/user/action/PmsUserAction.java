@@ -6,12 +6,12 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
-import wusc.edu.demo.common.page.PageBean;
-import wusc.edu.demo.user.base.BaseAction;
-import wusc.edu.demo.user.biz.PmsUserBiz;
-import wusc.edu.demo.user.entity.PmsUser;
-import wusc.edu.demo.user.enums.UserStatusEnum;
-import wusc.edu.demo.user.enums.UserTypeEnum;
+import wusc.edu.facade.common.entity.PmsUser;
+import wusc.edu.facade.common.enums.UserStatusEnum;
+import wusc.edu.facade.common.enums.UserTypeEnum;
+import wusc.edu.facade.common.page.PageBean;
+import wusc.service.user.biz.PmsUserBiz;
+import wusc.web.user.base.BaseAction;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -159,9 +159,7 @@ public class PmsUserAction extends BaseAction {
 	/**
 	 * 校验Pms用户表单数据.
 	 * 
-	 * @param PmsUser
 	 *            用户信息.
-	 * @param roleUserStr
 	 *            关联的角色ID串.
 	 * @return
 	 */

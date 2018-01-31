@@ -1,7 +1,7 @@
 package wusc.web.user.base;
 
-import wusc.edu.demo.user.entity.PmsUser;
 
+import wusc.edu.facade.common.entity.PmsUser;
 
 public interface UserLoginedAware {
 

@@ -1,9 +1,9 @@
 package wusc.service.user.dao.impl;
 
 import org.springframework.stereotype.Repository;
-import wusc.edu.demo.common.core.dao.BaseDaoImpl;
-import wusc.edu.demo.user.dao.PmsUserDao;
-import wusc.edu.demo.user.entity.PmsUser;
+import wusc.edu.facade.common.core.dao.BaseDaoImpl;
+import wusc.edu.facade.common.entity.PmsUser;
+import wusc.service.user.dao.PmsUserDao;
 
 
 /**
